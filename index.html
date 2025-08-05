@@ -3,42 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Personal Page</title>
+    <title>My Profile Page</title>
 </head>
-
-<body>
-
     <!-- TODO: Add a <header> with an <h1> titled "My Profile Page" and a short <p> welcome message -->
-       
+       <header><h1>My Profile Page</h1></header>
+       <P>Welcome to MY corner of the internet! take a look around ti learn more about me. </P>
     <!-- TODO: Add a <nav> with three links: Home, Skills, Contact -->
-
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li> <a href="#">Skill </a></li>
+                <li> <a href="#">Contact</a></li>
+             </ul>
+        </nav>
     <!-- TODO: Begin the <main> section -->
-
+        <main>
     <!-- TODO: Add a <section> with an <h2> titled "About Me" and an <article> with a short paragraph about yourself -->
-    <!-- TIP: Use some inline elements like <strong>, <em>, or <span> in the paragraph -->
+        <section>
+            <h2>About Me</h2>
+     <!-- TIP: Use some inline elements like <strong>, <em>, or <span> in the paragraph -->
+
+            <article>
+                <span>
+                <p> Hello! I'm passionate developer with a knack for creating clean, efficient code. I find <strong>joy </strong>in solvig complex problems and I'm always <em>eager</em> to learn new technolgies. Outside of coding, I enjoy hiking and experimenting with new recipes in the kitchen. </p>
+                </span>
+            </article>
+        </section>
 
     <!-- TODO: Add a <section> with an <h2> titled "My Skills" -->
+        <section>
+            <h2>My Skills</h2>
+      
     <!-- TODO: Add an unordered list (<ul>) of at least 4 skills -->
+        <ul>
+            <li>Html & CSS</li>
+            <li>Video editing</li>
+            <li>Graphic Design</li>
+            <li>C language </li>
+        </ul>
     <!-- TODO: Add an ordered list (<ol>) of steps you follow when learning something new -->
-
+        <ol>
+            <p><Strong>Here is my process for learing new things:</p></Strong>
+            <li>Start with the fundamental and core concept.</li>
+            <li>Practice with small, focused projects.</li>
+            <li>share my knowledge by writing article or teaching a friend.</li>
+        </ol>
+          </section>
     <!-- TODO: Add a <section> with an <h2> titled "Contact Me" -->
-
+        <section><h2>Contact Me</h2>
     <!-- TODO: Start a <form> with method="post" and action="#" -->
-
+        <form method="post" action="#">
     <!-- TODO: Add a label and input for Full Name (type="text") -->
-
+        <label for="FullName"> Full Name:</label>
+        <input type="text" id="name" name="Full_Name" placeholder="Name" required><br><br>
     <!-- TODO: Add a label and input for Email (type="email") -->
-
+     <label for="email">e-mail:</label>
+<input type="email" id="email" name="email_address" placeholder="@gmail.com" required><br><br>
     <!-- TODO: Add a label and textarea for a Message -->
-
+<label for="Message">Message</label><br>
+<textarea id="message" name="message" rows="4" cols="50" ></textarea><br>
+</form>
+</section>
     <!-- TODO: Add a submit button -->
-
+        <center><button type="submit">Submit</button></center>
     <!-- TODO: End the <main> section -->
 
+    </main>
+
     <!-- TODO: Add an <aside> with a note like "Available for freelance projects!" -->
-
+        <aside>
+            <p><strong>Note:- </strong> Available for freelance projects!</p>
+        </aside>
     <!-- TODO: Add a <footer> with your name and © 2025 -->
-
+<footer>
+    <p>&copy; 2025 sahar Jamal. All rights reserved.</p>
+</footer>
 </body>
 
 </html>
